@@ -61,7 +61,23 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Cores personalizadas para a chácara
+				chacara: {
+					primary: '#2E7D32', // Verde floresta
+					secondary: '#795548', // Marrom natural
+					accent: '#4CAF50', // Verde folha
+					light: '#E8F5E9', // Verde claro
+					dark: '#1B5E20', // Verde escuro
+					text: '#3E2723', // Marrom escuro para texto
+					water: '#1976D2', // Azul para água
+					sand: '#F9A825' // Amarelo areia
 				}
+			},
+			fontFamily: {
+				sans: ['Inter', 'sans-serif'],
+				serif: ['Playfair Display', 'serif'],
+				nature: ['Caveat', 'cursive']
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
